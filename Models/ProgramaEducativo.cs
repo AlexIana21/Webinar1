@@ -1,5 +1,5 @@
 namespace Models;
-
+/*
 class ProgramaEducativo
 {
     private List<Estudiante> estudiantes;
@@ -89,3 +89,41 @@ class ProgramaEducativo
     }
 
 }   
+*/
+
+public class SistemaEducativo
+{   
+    private List<Estudiante> Estudiante { get; set; } = new List<Estudiante>();
+
+    public void EliminarEstudiante(string nombre)
+    {
+        Estudiante estudiante = Estudiante.FirstOrDefault(e => e.Nombre == nombre);
+        if (estudiante != null)
+        {
+            Estudiante.Remove(estudiante);
+            Console.WriteLine($"Estudiante {nombre} eliminado.");
+        }
+        else
+        {
+            Console.WriteLine($"Error: No se encontró al estudiante con el nombre {nombre}.");
+        }
+    }
+}
+
+/*
+    public void EliminarEstudiante(string nombre)
+    {
+        Estudiante estudiante = ObtenerEstudiante(nombre);
+        if (estudiante != null)
+        {
+            estudiantes.Remove(estudiante);
+            Console.WriteLine($"El estudiante {nombre} ha sido eliminado.");
+        }
+        else
+        {
+            Console.WriteLine($"El estudiante {nombre} no fue encontrado.");
+        }
+    }
+*/
+   
+

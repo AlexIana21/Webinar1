@@ -1,5 +1,5 @@
 namespace Models;
-
+/*
 class Estudiante
 {
     public string Nombre { get; set; }
@@ -49,3 +49,36 @@ class Estudiante
     }
 
 }
+*/
+class Estudiante
+{
+    public string Nombre { get; set; }
+    public Dictionary<string, double> Calificaciones { get; set; } = new Dictionary<string, double>();
+
+    public void ModificarCalificacion(string asignatura, double nuevaCalificacion)
+    {
+        if (Calificaciones.ContainsKey(asignatura))
+        {
+            Calificaciones[asignatura] = nuevaCalificacion;
+            Console.WriteLine($"La nota de {asignatura} ha sido cambiada a {nuevaCalificacion}");
+        }
+        else
+        {
+            Console.WriteLine($"Error: El estudiante no está inscrito en la asignatura {asignatura}");
+        }
+    }
+}
+
+/*    public void ModificarCalificacion(Asignatura asignatura, double nuevaCalificacion)
+    {
+        if (calificaciones.ContainsKey(asignatura))
+        {
+            calificaciones[asignatura] = nuevaCalificacion;
+            Console.WriteLine($"Calificación de {asignatura.Nombre} modificada a {nuevaCalificacion:F2}.");
+        }
+        else
+        {
+            Console.WriteLine($"El estudiante no tiene una calificación en {asignatura.Nombre}.");
+        }
+    }*/
+

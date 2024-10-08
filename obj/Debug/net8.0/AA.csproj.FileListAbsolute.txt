@@ -12,3 +12,4 @@ C:\Users\S2-PC00\Desktop\AA\obj\Debug\net8.0\refint\AA.dll
 C:\Users\S2-PC00\Desktop\AA\obj\Debug\net8.0\AA.pdb
 C:\Users\S2-PC00\Desktop\AA\obj\Debug\net8.0\AA.genruntimeconfig.cache
 C:\Users\S2-PC00\Desktop\AA\obj\Debug\net8.0\ref\AA.dll
+C:\Users\S2-PC00\Desktop\AA\obj\Debug\net8.0\AA.sourcelink.json
