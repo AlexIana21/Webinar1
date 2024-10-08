@@ -1,0 +1,14 @@
+C:\Users\S2-PC00\Desktop\AA\bin\Debug\net8.0\AA.exe
+C:\Users\S2-PC00\Desktop\AA\bin\Debug\net8.0\AA.deps.json
+C:\Users\S2-PC00\Desktop\AA\bin\Debug\net8.0\AA.runtimeconfig.json
+C:\Users\S2-PC00\Desktop\AA\bin\Debug\net8.0\AA.dll
+C:\Users\S2-PC00\Desktop\AA\bin\Debug\net8.0\AA.pdb
+C:\Users\S2-PC00\Desktop\AA\obj\Debug\net8.0\AA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\S2-PC00\Desktop\AA\obj\Debug\net8.0\AA.AssemblyInfoInputs.cache
+C:\Users\S2-PC00\Desktop\AA\obj\Debug\net8.0\AA.AssemblyInfo.cs
+C:\Users\S2-PC00\Desktop\AA\obj\Debug\net8.0\AA.csproj.CoreCompileInputs.cache
+C:\Users\S2-PC00\Desktop\AA\obj\Debug\net8.0\AA.dll
+C:\Users\S2-PC00\Desktop\AA\obj\Debug\net8.0\refint\AA.dll
+C:\Users\S2-PC00\Desktop\AA\obj\Debug\net8.0\AA.pdb
+C:\Users\S2-PC00\Desktop\AA\obj\Debug\net8.0\AA.genruntimeconfig.cache
+C:\Users\S2-PC00\Desktop\AA\obj\Debug\net8.0\ref\AA.dll
